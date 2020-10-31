@@ -52,4 +52,13 @@ f=open("demofile.txt","rt")#here r stand for read only and t stand for text valu
 import mysql.connector #After downloading Connector library we have to import that library in our program
 
 mydb=mysql.connector.connect(host="localhost",user="yourusername"password="yourpassword")
-print(mydb)
+print(mydb) 
+#Creatin A Database
+import mysql.connector #After downloading Connector library we have to import that library in our program
+
+mydb=mysql.connector.connect(host="localhost",user="yourusername"password="yourpassword")
+mycuursor=mydb.cursor()
+
+mycursor.execute("Create Database mydatabase")
+
+  
