@@ -38,4 +38,9 @@ print(x)
 print(y)
 
 z=abs(-7.2)
-print(x) #Try Yourself
+print(z) #Try Yourself
+
+a=pow(4,3)
+print(a)#this is use for power
+
+
