@@ -48,3 +48,8 @@ f=open("filename.txt")
 f=open("demofile.txt","rt")#here r stand for read only and t stand for text value
 
 
+#Test MySql connector
+import mysql.connector #After downloading Connector library we have to import that library in our program
+
+mydb=mysql.connector.connect(host="localhost",user="yourusername"password="yourpassword")
+print(mydb)
