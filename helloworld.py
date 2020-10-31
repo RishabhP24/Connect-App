@@ -30,3 +30,12 @@ def myfunc1():
     print(x)
   myinnerfunc()
 myfunc()
+
+#now we try some Built-in Math function
+x=min(5,10,25)
+y=max(5,10,25)
+print(x)
+print(y)
+
+z=abs(-7.2)
+print(x)
