@@ -12,3 +12,8 @@ thistuple=("apple","banana","cherry")
 print(thistuple)
 thisset={"apple","banana","cherry"}
 print(thisset)
+#lets try Lambda
+x=lambda a:a+10
+print(x(5))
+x=lambda a,b:a*b
+print(x(5,6))
