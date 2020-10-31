@@ -43,4 +43,8 @@ print(z) #Try Yourself
 a=pow(4,3)
 print(a)#this is use for power
 
+#lets try some file handling
+f=open("filename.txt")
+f=open("demofile.txt","rt")#here r stand for read only and t stand for text value
+
 
