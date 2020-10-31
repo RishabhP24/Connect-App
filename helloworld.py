@@ -17,3 +17,16 @@ x=lambda a:a+10
 print(x(5))
 x=lambda a,b:a*b
 print(x(5,6))
+
+#lets try scope
+def myfunc():
+  x=300
+  print(x)
+ 
+my func() #Here we call our Scope
+def myfunc1():
+  x=300
+  def myinnerfunc():
+    print(x)
+  myinnerfunc()
+myfunc()
