@@ -71,3 +71,10 @@ mycursor.execute("Show Database")
 for x in mycursor:
   print(x)
 
+#Creating A Table
+import mysql.connector #After downloading Connector library we have to import that library in our program
+
+mydb=mysql.connector.connect(host="localhost",user="yourusername"password="yourpassword")
+mycursor=mydb.cursor()
+
+mycursor.execute("Create Table Customers(name VARCHAR(255), address(VARCHAR(255))")
